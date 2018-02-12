@@ -1,0 +1,2 @@
+# emperor
+Hugo theme
