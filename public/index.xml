@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Code Never Lies on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Machine Code Never Lies on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>http://example.org/projects/website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/website/</guid>
+      <description>The current website. Developed with Hugo&amp;rsquo;s help. Based on slightly modified cocoa theme.
+Made prettier and a little bit more interactive with some custom HTML, CSS, and a smidgen of JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>SteamCLI</title>
+      <link>http://example.org/projects/steamcli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/steamcli/</guid>
+      <description>steamCLI is a command line tool that allows searching for price information about games on Steam straight from the command line. It supports recent and overall ratings, current prices (on Steam), historical low price, different currencies and regions.
+The tool was written purely in Python 3.6 and leverages IsThereAnyDeal API (thanks!).</description>
+    </item>
+    
+    <item>
+      <title>Cookme</title>
+      <link>http://example.org/projects/cookme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/cookme/</guid>
+      <description>https://cookmetoo.herokuapp.com/
+cookme serves as a simple recipe holder with a no-nonsense frontend.
+A user can browse recipes that have been added by other users. Additionally, the user can search for ingredient(s) that he/she would like to use. If there are recipes containing them, the matching recipes will be shown. Furthermore, the user can add recipes and ingredients to his/her fridge. Once ingredients and recipes are added, the user can search the fridge for liked recipes that can be made with ingredients in the fridge.</description>
+    </item>
+    
+    <item>
+      <title>Tasks</title>
+      <link>http://example.org/projects/tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/tasks/</guid>
+      <description>tasks is a command line tool to enable creating and keeping track of tasks that need to be done.
+The main reason for this project was to have a simple project that allows some degree of experimentation with the following technologies a little bit more:
+ Java 9 HSQLDB JDBC Liquibase Log4j2 Maven Commons CLI  Apparently, coding CLI tools in Java is quite awkward. Who could have guessed.</description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>http://example.org/projects/tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/tables/</guid>
+      <description>tables is a library that provides basic tools to build a table and print it to a terminal. It was extracted from tasks project, when building and printing a table proved to be more tricky than the whole project itself.
+Written in Java 9.</description>
+    </item>
+    
+    <item>
+      <title>Books CRUD</title>
+      <link>http://example.org/projects/books-crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/books-crud/</guid>
+      <description>The project is a proof of concept CRUD app. Its main purpose was to have a place to play with:
+ Java 8 Dropwizard Groovy + Spock Camel Guice JDBI Docker  It mostly consists of wiring components and libraries to check how they work with one another. Hence, it really is a simple CRUD app.</description>
+    </item>
+    
+  </channel>
+</rss>
