@@ -1,11 +1,39 @@
-<section class="main">
-  <div class="container">
-    <div class="content">
-      {{ if .Content }}
-      <div class="markdown">
-        {{ .Content }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <!-- CSS and meta data -->
+  </head>
+
+  <header>
+    <h1>The Title</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li>First nav link</li>
+      <li>Second nav link</li>
+      <li>Third nav link</li>
+    </ul>
+  </nav>
+  
+  <body>
+    <main>
+      <section id="content">
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <div>Copyright</div>
+    <div>Links</div>
+    <div>Funny closing remark</div>
+
+    <!-- Scripts -->
+
+  </footer>
+
+</html>
