@@ -1,22 +1,18 @@
-<section class="main">
-  <div class="container">
-    <div class="content">
-      <div class="markdown">
-        {{ .Content }}
-      </div>
-      {{ with .Data.Pages }}
-      <ul>
-        {{ range .ByWeight }}
-        <li>
-          <a {{ printf "href=%q" .URL | safeHTMLAttr }}>
-            {{ default .Title .Params.heading }}
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-      {{ end }}
+{{ define "main" }}
+  <section id="items">
+    <div class="markdown">
+      {{ .Content }}
     </div>
-  </div>
-</section>
-
-{{ partial "footer" . }}
+    {{ with .Data.Pages }}
+    <ul>
+      {{ range .ByWeight }}
+      <li>
+        <a {{ printf "href=%q" .URL | safeHTMLAttr }}>
+          {{ default .Title .Params.heading }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </section>
+{{ end }}
