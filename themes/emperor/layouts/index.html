@@ -7,20 +7,21 @@
 
   <header>
     <h1>The Title</h1>
-  </header>
 
-  <nav>
-    <ul>
-      {{ range .Site.Menus.main }}
-        {{- $isCurrent := ( or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) ) -}}
-        <li class="{{ if $isCurrent -}} nav-current {{- end }}">
-          <a href="{{ .URL | absLangURL }}">
-            {{ .Name }}
-          </a>
-        </li>
-      {{ end }}
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        {{ range .Site.Menus.main }}
+          {{- $isCurrent := ( or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) ) -}}
+          <li class="{{ if $isCurrent -}} nav-current {{- end }}">
+            <a href="{{ .URL | absLangURL }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+  </header>
   
   <body>
     <main>
