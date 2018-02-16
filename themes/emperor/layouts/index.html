@@ -11,9 +11,14 @@
 
   <nav>
     <ul>
-      <li>First nav link</li>
-      <li>Second nav link</li>
-      <li>Third nav link</li>
+      {{ range .Site.Menus.main }}
+        {{- $isCurrent := ( or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) ) -}}
+        <li class="{{ if $isCurrent -}} nav-current {{- end }}">
+          <a href="{{ .URL | absLangURL }}">
+            {{ .Name }}
+          </a>
+        </li>
+      {{ end }}
     </ul>
   </nav>
   
