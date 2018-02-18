@@ -7,7 +7,7 @@ author              = "Simonas Viliunas"
 title               = "Machine Code Never Lies"
 builddrafts         = false
 canonifyurls        = true
-googleAnalytics     = "UA-113536003-1"
+googleAnalytics     = "UA-123-45"
 pluralizelisttitles = false
 languageCode        = "en-us"
 
