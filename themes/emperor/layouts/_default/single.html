@@ -4,4 +4,14 @@
       {{ .Content }}
     {{ end }}
   </section>
+
+  {{ if .Params.categories }}
+    <section>
+        Categories:
+        {{ range .Params.categories }}
+          <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+    </section>
+  {{ end }}
+
 {{ end }}
