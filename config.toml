@@ -15,7 +15,7 @@ languageCode        = "en-us"
 hrefTargetBlank     = true
 
 [permalinks]
-blog  = "blog/:slug/"
+blog                   = "blog/:slug/"
 
 [[menu.main]]
 name                   = "Home"

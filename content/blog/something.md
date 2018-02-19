@@ -4,9 +4,9 @@ date: 2018-01-20T21:34:45+02:00
 draft: true
 tags: ["testing"]
 categories: ["test"]
+description: An elaborate description of what the heck this article is about
 ---
 Some text. And some python code:
-
 {{< highlight python >}}
 class TestClass:
     __init__(self, a):
