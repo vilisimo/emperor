@@ -1,4 +1,8 @@
-<h1>The Title</h1>
+<h1>
+  <a {{ printf "href=%q" ("/" | relLangURL) | safeHTMLAttr }}>
+    {{ .Site.Title }}
+  </a>
+</h1>
 
 <nav>
   <ul>
