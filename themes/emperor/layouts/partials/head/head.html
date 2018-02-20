@@ -1,3 +1,18 @@
+<title>
+    {{- $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
+    {{- if eq $url "/" -}}
+        {{- .Site.Title -}}
+    {{- else -}}
+        {{- if .Params.heading -}} 
+            {{- .Params.heading }} :: {{ .Site.Title -}}
+        {{- else if .Title -}}
+            {{- .Title }} :: {{ .Site.Title -}}
+        {{- else -}}
+            {{- .Site.Title -}}  
+        {{- end -}}
+    {{- end -}}
+</title>
+
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="stylesheet" href="/css/main.css">
 
