@@ -1,0 +1,5 @@
+<meta charset="utf-8">
+{{ with .Site.Author }}
+    <meta name="author" content="{{ .name }}">
+{{ end }}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">

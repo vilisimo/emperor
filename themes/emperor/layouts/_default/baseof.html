@@ -2,13 +2,15 @@
 <html lang="en-US">
 
   <head>
+    {{ block "meta" . }}
+      {{ partial "head/meta" . }}
+    {{ end }}
     {{ block "head" . }}
       {{ partial "head/head" . }}
     {{ end }}
   </head>
   
   <body>
-
     <header>
       {{ block "header" . }}
         {{ partial "header" . }}

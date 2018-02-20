@@ -3,13 +3,15 @@ contentdir          = "content"
 layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "emperor"
-author              = "Simonas Viliunas"
 title               = "Machine Code Never Lies"
 builddrafts         = false
 canonifyurls        = true
 googleAnalytics     = "UA-123-45"
 pluralizelisttitles = false
 languageCode        = "en-us"
+
+[Author]
+name                = "Simonas Viliunas"
 
 [blackfriday]
 hrefTargetBlank     = true
@@ -46,3 +48,4 @@ identifier             = "about"
 url                    = "/about/"
 
 [params]
+description            = "Incredibly deep blog about stuff"
