@@ -1,0 +1,20 @@
+<li>
+    <article>
+        <header>
+        <h3>
+            <a {{ printf "href=%q" .URL | safeHTMLAttr }}>
+                {{ default .Title .Params.heading }}
+            </a>
+        </h3>
+        </header>
+        <section>
+            {{ .Description }}
+        </section>
+        <footer>
+            <p>Estimated reading time: {{ .ReadingTime }} min</p>
+            <a href="{{ .RelPermalink }}">
+                Read More…
+            </a>
+        </footer>
+    </article>
+</li>
