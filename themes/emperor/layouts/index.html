@@ -4,4 +4,24 @@
       {{ .Content }}
     </section>
   {{ end }}
+
+  {{ $blogCount := len (where .Site.RegularPages "Section" "blog") }}
+  {{ $latestPostCount := .Site.Params.latestpostcount | default 5 }}
+
+  {{ if gt $blogCount 0 }}
+    <section>
+      <h3>Latest blog entries</h3>
+      <ul>
+        {{ range (first $latestPostCount (where .Site.RegularPages.ByPublishDate.Reverse "Section" "blog")) }}
+          {{ partial "list/listitem" . }}
+        {{ end }}
+      </ul>
+      {{ if gt $blogCount $latestPostCount}}
+        {{ range where .Site.Menus.main "Identifier" "blog" }}
+          <a {{ printf "href=%q" .URL | safeHTMLAttr }}>Investigate other entries for heresy...</a>
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+
 {{ end }}
