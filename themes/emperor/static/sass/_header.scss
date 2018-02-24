@@ -1,0 +1,19 @@
+#page-header {
+    text-align: center;
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+
+        li {
+            list-style-type: none;
+            padding: 5px;
+        }
+    }
+}
