@@ -7,10 +7,10 @@
 
   {{ if .Params.categories }}
     <section>
-        Categories:
-        {{ range .Params.categories }}
+      {{- printf "Categories:" -}}
+        {{- range .Params.categories -}}
           <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
-        {{ end }}
+        {{- end -}}
     </section>
   {{ end }}
 

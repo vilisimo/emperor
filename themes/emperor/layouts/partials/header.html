@@ -1,6 +1,6 @@
 <h1>
   <a {{ printf "href=%q" ("/" | relLangURL) | safeHTMLAttr }}>
-    {{ .Site.Title }}
+    {{- .Site.Title -}}
   </a>
 </h1>
 
@@ -10,7 +10,7 @@
       {{- $isCurrent := ( or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) ) -}}
       <li class="{{ if $isCurrent -}} nav-current {{- end }}">
         <a href="{{ .URL | absLangURL }}">
-          {{ .Name }}
+          {{- .Name -}}
         </a>
       </li>
     {{ end }}
