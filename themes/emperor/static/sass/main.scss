@@ -1,1 +1,12 @@
-@import 'header'
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,800');
+
+// Fonts
+$raleway: 'Raleway', sans-serif;
+
+// Colors
+$active: #383838;
+$hover: #606060;
+$inactive:  #909090;
+
+@import 'general';
+@import 'header';
