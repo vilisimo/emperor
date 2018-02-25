@@ -1,17 +1,26 @@
 {{ define "main" }}
-  <section>
-    {{ if .Content }}
-      {{ .Content }}
-    {{ end }}
-  </section>
+  <article>
+    <header>
+        <h1>
+          <a href="{{ .Permalink }}">
+            {{- .Title -}}
+          </a>
+        </h1>
+    </header>
 
-  {{ if .Params.categories }}
     <section>
-      {{- printf "Categories:" -}}
-        {{- range .Params.categories -}}
-          <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
-        {{- end -}}
+      {{ if .Content }}
+        {{ .Content }}
+      {{ end }}
     </section>
-  {{ end }}
 
+    {{ if .Params.categories }}
+      <section>
+        {{- printf "Categories:" -}}
+          {{- range .Params.categories -}}
+            <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+          {{- end -}}
+      </section>
+    {{ end }}
+  </article>
 {{ end }}
