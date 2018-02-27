@@ -11,6 +11,8 @@ $background: #f7f3ed;
 $content: white;
 $border: #ddd;
 
+// sizes
+
 @import 'general';
 @import 'header';
 @import 'footer';
@@ -20,9 +22,13 @@ body {
 }
 
 main {
-    max-width: 70%;
     background-color: $content;
+    border: 1px solid $border;
     margin: 10px auto;
     padding: 10px;
-    border: 1px solid $border;
+    max-width: 800px;
+
+    @media screen and (max-width: 960px) {
+        max-width: 85%;
+    }
 }

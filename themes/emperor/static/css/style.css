@@ -40,10 +40,13 @@ body {
   background-color: #f7f3ed; }
 
 main {
-  max-width: 70%;
   background-color: white;
+  border: 1px solid #ddd;
   margin: 10px auto;
   padding: 10px;
-  border: 1px solid #ddd; }
+  max-width: 800px; }
+  @media screen and (max-width: 960px) {
+    main {
+      max-width: 85%; } }
 
 /*# sourceMappingURL=style.css.map */
