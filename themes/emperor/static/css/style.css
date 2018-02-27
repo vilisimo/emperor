@@ -32,4 +32,17 @@ nav li > a:hover {
 .nav-current a, .nav-current a:hover {
   color: #383838; }
 
+body > footer {
+  text-align: center; }
+
+body {
+  background-color: #f7f3ed; }
+
+main {
+  max-width: 70%;
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ddd; }
+
 /*# sourceMappingURL=style.css.map */

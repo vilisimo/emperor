@@ -6,7 +6,23 @@ $raleway: 'Raleway', sans-serif;
 // Colors
 $active: #383838;
 $hover: #606060;
-$inactive:  #909090;
+$inactive: #909090;
+$background: #f7f3ed;
+$content: white;
+$border: #ddd;
 
 @import 'general';
 @import 'header';
+@import 'footer';
+
+body {
+    background-color: $background;
+}
+
+main {
+    max-width: 70%;
+    background-color: $content;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid $border;
+}
