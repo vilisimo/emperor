@@ -13,6 +13,7 @@ a {
     font-size: 2em; }
   #page-header ul {
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     flex-flow: row wrap; }
