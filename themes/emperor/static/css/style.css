@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700,800");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:700");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Crimson Text", serif; }
+
 a {
   text-decoration: none;
   color: #383838; }
+
+p, ul, ol, li, section {
+  font-family: "Source Sans Pro", sans-serif; }
 
 #page-header {
   text-align: center; }
