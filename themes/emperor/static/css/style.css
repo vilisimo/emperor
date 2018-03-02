@@ -30,13 +30,15 @@ p, ul, ol, li, section {
       list-style-type: none;
       padding: 5px; }
 
-nav a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  color: #909090; }
-nav li > a:hover {
-  color: #606060; }
+nav {
+  margin: 20px; }
+  nav a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #909090; }
+  nav li > a:hover {
+    color: #606060; }
 
 .nav-current a, .nav-current a:hover {
   color: #383838; }
