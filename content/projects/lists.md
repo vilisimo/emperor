@@ -1,17 +1,11 @@
 ---
-title: Lists
+title: Things to Avoid
 draft: false
-project: lists
+project: avoidable
 weight: 3
 ---
-Some lists to check:
+Things to be avoided in the Empire:
 
-- one
-- two
-- three
-- four
-- five
-- six
-- seven
-
-Pretty cool list, eh?
+- herecy
+- open mind
+- orcs
