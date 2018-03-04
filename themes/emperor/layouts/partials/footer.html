@@ -1,4 +1,4 @@
-<section>
+<section id="social-icons">
     {{ if .Site.Params.social.github }}
         <a href="https://www.github.com/{{ .Site.Params.social.github }}">
             <img id="github" src="img/github.svg" alt="GitHub" />
@@ -10,6 +10,9 @@
             <img id="linkedin" src="img/linkedin.svg" alt="LinkedIn" />
         </a>
     {{ end }}
+</section>
+<section>
+    <small>{{ dateFormat "2006" now }} {{ printf .Site.Author.name -}}</small>
 </section>
 
 <!-- Scripts -->
