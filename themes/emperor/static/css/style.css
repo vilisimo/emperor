@@ -43,8 +43,18 @@ nav {
 .nav-current a, .nav-current a:hover {
   color: #383838; }
 
+img[alt="GitHub"], img[alt="LinkedIn"] {
+  opacity: 0.5;
+  transition: all 0.3s ease-in;
+  height: 1.125em;
+  width: 1.125em; }
+
 body > footer {
-  text-align: center; }
+  text-align: center;
+  margin: 15px 0 15px 0; }
+
+img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
+  opacity: 1; }
 
 body {
   background-color: #f7f3ed; }

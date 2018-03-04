@@ -1,3 +1,21 @@
+$size: 1.125em; // 20px / 16px = 18 px
+
+%icon {
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+    height: $size;
+    width: $size;
+}
+
 body > footer {
     text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+img[alt="GitHub"], img[alt="LinkedIn"] {
+    @extend %icon;
+}
+
+img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
+    opacity: 1;
 }

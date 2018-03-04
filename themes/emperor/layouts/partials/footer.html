@@ -1,4 +1,15 @@
-<div>Copyright</div>
-<div>Links</div>
-<div>Funny closing remark</div>
+<section>
+    {{ if .Site.Params.social.github }}
+        <a href="https://www.github.com/{{ .Site.Params.social.github }}">
+            <img id="github" src="img/github.svg" alt="GitHub" />
+        </a>
+    {{ end }}
+
+    {{ if .Site.Params.social.linkedin }}
+        <a href="https://www.linkedin.com/in/{{ .Site.Params.social.linkedin }}">
+            <img id="linkedin" src="img/linkedin.svg" alt="LinkedIn" />
+        </a>
+    {{ end }}
+</section>
+
 <!-- Scripts -->

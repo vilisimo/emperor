@@ -53,3 +53,7 @@ latestpostcount         = 2
 
 [params.assets]
 normalizecss            = true
+
+[params.social]
+github                  = "vilisimo"
+linkedin                = "simonasviliunas"
