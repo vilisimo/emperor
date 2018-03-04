@@ -1,13 +1,13 @@
 <section id="social-icons">
     {{ if .Site.Params.social.github }}
-        <a href="https://www.github.com/{{ .Site.Params.social.github }}">
-            <img id="github" src="img/github.svg" alt="GitHub" />
+        <a href="https://www.github.com/{{ .Site.Params.social.github }}" rel="noopener" target="_blank">
+            <img src="/img/github.svg" alt="GitHub" />
         </a>
     {{ end }}
 
     {{ if .Site.Params.social.linkedin }}
-        <a href="https://www.linkedin.com/in/{{ .Site.Params.social.linkedin }}">
-            <img id="linkedin" src="img/linkedin.svg" alt="LinkedIn" />
+        <a href="https://www.linkedin.com/in/{{ .Site.Params.social.linkedin }}" rel="noopener" target="_blank">
+            <img src="/img/linkedin.svg" alt="LinkedIn" />
         </a>
     {{ end }}
 </section>
