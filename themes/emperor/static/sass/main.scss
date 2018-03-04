@@ -15,7 +15,13 @@ $background: #f7f3ed;
 $content: white;
 $border: #ddd;
 
-// sizes
+// pixel equivalents in ems (from 16px)
+$px5: 0.3125em;
+$px10: 0.625em;
+$px15: 0.9375em;
+$px20: 1.25em;
+$px45: 2.8125em;
+$px780: 48.75em;
 
 @import 'general';
 @import 'header';
@@ -29,9 +35,9 @@ body {
 main {
     background-color: $content;
     border: 1px solid $border;
-    margin: 10px auto;
-    padding: 15px 45px 15px 45px;
-    max-width: 780px;
+    margin: $px10 auto;
+    padding: $px15 $px45;
+    max-width: $px780;
 
     @media screen and (max-width: 960px) {
         max-width: 75%;
@@ -40,6 +46,6 @@ main {
     @media screen and (max-width: 500px) {
         max-width: 100%;
         margin: 0;
-        padding: 15px 10px 15px 10px;
+        padding: $px15 $px10;
     }
 }

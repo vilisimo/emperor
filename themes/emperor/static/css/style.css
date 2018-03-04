@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700,800");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:700");
+body {
+  font: normal 100% Helvetica, Arial, sans-serif; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", serif; }
 
@@ -14,7 +17,7 @@ p, ul, ol, li, section {
 #page-header {
   text-align: center; }
   #page-header h1 {
-    margin: 15px 0 10px 0;
+    margin: 0.625em 0 0.3125em 0;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -28,10 +31,10 @@ p, ul, ol, li, section {
     #page-header ul li {
       text-transform: uppercase;
       list-style-type: none;
-      padding: 5px; }
+      padding: 0.3125em; }
 
 nav {
-  margin: 20px; }
+  margin: 0.625em 0 0.9375em 0; }
   nav a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -51,7 +54,12 @@ img[alt="GitHub"], img[alt="LinkedIn"] {
 
 body > footer {
   text-align: center;
-  margin: 15px 0 15px 0; }
+  margin: 0.9375em 0; }
+
+#social-icons {
+  margin: 0.3125em 0; }
+  #social-icons img {
+    margin: 0 0.125em; }
 
 img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
   opacity: 1; }
@@ -62,9 +70,9 @@ body {
 main {
   background-color: white;
   border: 1px solid #ddd;
-  margin: 10px auto;
-  padding: 15px 45px 15px 45px;
-  max-width: 780px; }
+  margin: 0.625em auto;
+  padding: 0.9375em 2.8125em;
+  max-width: 48.75em; }
   @media screen and (max-width: 960px) {
     main {
       max-width: 75%; } }
@@ -72,6 +80,6 @@ main {
     main {
       max-width: 100%;
       margin: 0;
-      padding: 15px 10px 15px 10px; } }
+      padding: 0.9375em 0.625em; } }
 
 /*# sourceMappingURL=style.css.map */
