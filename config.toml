@@ -9,6 +9,7 @@ canonifyurls            = true
 googleAnalytics         = "UA-123-45"
 pluralizelisttitles     = false
 languageCode            = "en-us"
+enableGitInfo           = true
 
 [Author]
 name                    = "Simonas Viliūnas"

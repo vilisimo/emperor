@@ -1,11 +1,24 @@
 {{ define "main" }}
-  <article>
+  <article class="markdown">
     <header>
         <h1>
           <a href="{{ .Permalink }}">
             {{- .Title -}}
           </a>
         </h1>
+        <div class="article-info">
+          <div class="date">
+              {{ .Page.Date.Format "January 2, 2006" -}}
+          </div>
+          {{ if .Params.categories }}
+            <div class="categories">
+                {{- range .Params.categories -}}
+                  <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+                {{- end -}}
+            </div>
+          {{ end }}
+        </div>
+        <!-- TODO: add previous/next links -->
     </header>
 
     <section>
@@ -14,13 +27,10 @@
       {{ end }}
     </section>
 
-    {{ if .Params.categories }}
-      <section>
-        {{- printf "Categories:" -}}
-          {{- range .Params.categories -}}
-            <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
-          {{- end -}}
-      </section>
-    {{ end }}
+    <footer>
+      <div class="date">
+        {{- print "Last edit:" }} {{ .Page.Lastmod.Format "January 2, 2006" -}}
+      </div>
+    </footer>
   </article>
 {{ end }}
