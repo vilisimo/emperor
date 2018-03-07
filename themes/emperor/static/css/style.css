@@ -75,29 +75,34 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
   letter-spacing: 0.0416667em;
   font-size: 0.75em; }
 
-.markdown header {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 0.9375em; }
-.markdown h1 {
-  font-size: 2.25em; }
-.markdown .date {
-  margin-left: 0.416667em; }
-.markdown .article-info {
-  display: flex; }
-  .markdown .article-info a {
-    color: inherit;
-    margin: 0 0.416667em 0 0.416667em; }
-  .markdown .article-info a:hover {
-    color: #0af; }
-.markdown .date {
-  flex-grow: 1;
-  text-align: left; }
-.markdown .categories {
-  flex-grow: 1;
-  text-align: right; }
-.markdown footer {
-  border-top: 1px solid #eee;
-  margin: 1.875em 0; }
+.markdown {
+  line-height: 1.5em; }
+  .markdown header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.9375em; }
+  .markdown h1 {
+    font-size: 2.25em; }
+  .markdown .date {
+    margin-left: 0.416667em; }
+  .markdown .article-info {
+    display: flex; }
+    .markdown .article-info a {
+      color: inherit;
+      margin: 0 0.416667em 0 0.416667em; }
+    .markdown .article-info a:hover {
+      color: #0af; }
+  .markdown .date {
+    flex-grow: 1;
+    text-align: left; }
+  .markdown .categories {
+    flex-grow: 1;
+    text-align: right; }
+  .markdown blockquote {
+    font-size: 0.85em;
+    color: #515A5A; }
+  .markdown footer {
+    border-top: 1px solid #eee;
+    margin: 1.875em 0; }
 
 body {
   background-color: #f7f3ed; }
