@@ -2,7 +2,7 @@ body {
     font: normal 100% Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, h1 > a {
+h1, h2, h3, h4, h5, h6, h1 > a, h3 > a {
     font-family: $crimson;
 }
 
@@ -12,5 +12,6 @@ a {
 }
 
 p, ul, ol, li, section, a, div {
-    font-family: $source-sans-pro;
+    font-family: $open-sans;
+    font-size: 1em;
 }
