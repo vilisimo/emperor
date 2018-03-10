@@ -32,7 +32,7 @@ $px780: 48.75em;
 @import 'general';
 @import 'header';
 @import 'footer';
-@import 'content';
+@import '_single';
 
 body {
     background-color: $background;
