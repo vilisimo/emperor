@@ -10,9 +10,9 @@
 
   {{ if gt $blogCount 0 }}
     <section>
-      <ul>
+      <ul class="recent-posts">
         {{ range (first $latestPostCount (where .Site.RegularPages.ByPublishDate.Reverse "Section" "blog")) }}
-          {{ partial "list/listitem" . }}
+          {{ partial "list/indexlistitem" . }}
         {{ end }}
       </ul>
       {{ if gt $blogCount $latestPostCount}}
