@@ -22,6 +22,7 @@ $decoration: #0af;
 $px5: 0.3125em;
 $px10: 0.625em;
 $px12: 0.75em;
+$px14: 0.875em;
 $px15: 0.9375em;
 $px20: 1.25em;
 $px24: 1.5em;
@@ -32,7 +33,8 @@ $px780: 48.75em;
 @import 'general';
 @import 'header';
 @import 'footer';
-@import '_single';
+@import 'single';
+@import 'index';
 
 body {
     background-color: $background;

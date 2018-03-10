@@ -105,6 +105,37 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
     border-top: 1px solid #eee;
     margin: 1.875em 0; }
 
+.recent-posts {
+  margin: 0;
+  padding: 0; }
+  .recent-posts li {
+    list-style-type: none;
+    margin: 2.8125em 0; }
+  .recent-posts header {
+    display: flex;
+    flex-wrap: wrap; }
+  .recent-posts h3 {
+    font-size: 1.5em;
+    margin: 0;
+    flex-grow: 9;
+    float: left;
+    vertical-align: bottom; }
+    .recent-posts h3 a {
+      display: inline-block; }
+    .recent-posts h3 a:hover {
+      color: #0af; }
+  .recent-posts .post-date {
+    margin: 0;
+    font-size: 0.75em;
+    flex-grow: 1;
+    float: right;
+    text-align: right;
+    color: #bcbcbc; }
+  .recent-posts footer a {
+    font-size: 0.875em; }
+  .recent-posts footer a:hover {
+    color: #0af; }
+
 body {
   background-color: #f7f3ed; }
 

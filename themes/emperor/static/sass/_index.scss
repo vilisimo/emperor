@@ -1,0 +1,49 @@
+.recent-posts {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+        margin: $px45 0;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h3 {
+        font-size: 1.5em; // 24 px
+        margin: 0;
+        flex-grow: 9;
+        float: left;
+        vertical-align: bottom;
+
+        a {
+            display: inline-block;
+        }
+
+        a:hover {
+            color: $decoration;
+        }
+    }
+
+    .post-date {
+        margin: 0;
+        font-size: 0.75em;
+        flex-grow: 1;
+        float: right;
+        text-align: right;
+        color: $supporting-info;
+    }
+
+    footer {
+        a {
+            font-size: $px14;
+        }
+        
+        a:hover {
+            color: $decoration;
+        }
+    }
+}
