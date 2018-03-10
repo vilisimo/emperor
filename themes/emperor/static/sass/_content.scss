@@ -14,13 +14,12 @@ $px5: 0.416667em; // 5px [12 px context]
 
     header {
         border-bottom: $separating-border;
-        margin-bottom: $px15;
+        padding-top: $px20;
     }
 
     h1 {
         font-size: 2.25em;
     }
-
     .categories {
         @extend %supporting;
     }

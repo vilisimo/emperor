@@ -5,7 +5,8 @@ body {
   font: normal 100% Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6, h1 > a, h3 > a {
-  font-family: "Crimson Text", serif; }
+  font-family: "Crimson Text", serif;
+  line-height: 1; }
 
 a {
   text-decoration: none;
@@ -79,7 +80,7 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
   line-height: 1.5em; }
   .markdown header {
     border-bottom: 1px solid #eee;
-    margin-bottom: 0.9375em; }
+    padding-top: 1.25em; }
   .markdown h1 {
     font-size: 2.25em; }
   .markdown .date {
