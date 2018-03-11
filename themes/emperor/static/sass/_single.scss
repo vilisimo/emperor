@@ -21,6 +21,11 @@ $px5: 0.416667em; // 5px [12 px context]
         font-size: 2.25em;
     }
 
+    h2, h3, h4, h5, h6 {
+        margin-top: 2em; // 36 px
+        margin-bottom: 1em; // 24 px
+    }
+
     .categories {
         @extend %supporting;
     }

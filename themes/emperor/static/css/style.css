@@ -87,6 +87,9 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
     padding-top: 1.25em; }
   .markdown h1 {
     font-size: 2.25em; }
+  .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+    margin-top: 2em;
+    margin-bottom: 1em; }
   .markdown .date {
     margin-left: 0.416667em; }
   .markdown .article-info {
