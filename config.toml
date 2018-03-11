@@ -51,7 +51,7 @@ url                     = "/about/"
 
 [params]
 description             = "Incredibly deep blog about stuff"
-latestpostcount         = 2
+latestpostcount         = 3
 
 [params.assets]
 normalizecss            = true
