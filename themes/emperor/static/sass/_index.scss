@@ -47,3 +47,14 @@
         }
     }
 }
+
+.more-posts {
+    display: block;
+    font-weight: bold;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.more-posts:hover {
+    color: $decoration;
+}

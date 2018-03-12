@@ -17,7 +17,7 @@
       </ul>
       {{ if gt $blogCount $latestPostCount}}
         {{ range where .Site.Menus.main "Identifier" "blog" }}
-          <a {{ printf "href=%q" .URL | safeHTMLAttr }}>Investigate other entries for heresy...</a>
+          <a class="more-posts" {{ printf "href=%q" .URL | safeHTMLAttr }}>To previous entries...</a>
         {{ end }}
       {{ end }}
     </section>

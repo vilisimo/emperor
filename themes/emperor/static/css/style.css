@@ -143,6 +143,15 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
   .recent-posts footer a:hover {
     color: #0af; }
 
+.more-posts {
+  display: block;
+  font-weight: bold;
+  margin: 2em 0;
+  text-align: center; }
+
+.more-posts:hover {
+  color: #0af; }
+
 body {
   background-color: #f7f3ed; }
 
