@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ if .Content }}
+    <section>
+      {{ .Content }}
+    </section>
+  {{ end }}
+  
+  {{ with .Data.Pages }}
+    <ul>
+      {{ range .ByWeight }}
+        <li>{{ .Title }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+{{ end }}
