@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:700,800');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:700');
 
 // Fonts
@@ -35,7 +35,7 @@ $px780: 48.75em;
 @import 'footer';
 @import 'single';
 @import 'index';
-@import 'blog';
+@import 'list';
 
 body {
     background-color: $background;

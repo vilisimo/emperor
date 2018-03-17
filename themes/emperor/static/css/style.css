@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700,800");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:700");
 *::selection {
   color: white;
@@ -152,20 +152,21 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
 .more-posts:hover {
   color: #0af; }
 
-.blog-items {
+.entries {
   padding-left: 1em; }
-  .blog-items a:hover {
+  .entries a:hover {
     color: #0af; }
 
-.blog-item {
+.entry {
   margin: 1em 0;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap; }
-  .blog-item .entry-date {
+  .entry .entry-date {
+    color: #bcbcbc;
     font-style: italic;
     min-width: 10em; }
-  .blog-item .entry-title {
+  .entry .entry-title {
     min-width: 10em;
     text-align: left; }
 

@@ -1,12 +1,17 @@
 {{ define "main" }}
-  <section>
-    {{ .Content }}
-    {{ with .Data.Pages }}
-    <ul>
-      {{ range .ByWeight }}
-        {{ partial "list/listitem" . }}
-      {{ end }}
-    </ul>
-    {{ end }}
-  </section>
+  {{ if .Content }}
+    <section>
+      {{ .Content }}
+    </section>
+  {{ end }}
+  
+  {{ with .Data.Pages }}
+    <section>
+      <ul class="entries">
+        {{ range .ByWeight }}
+          {{- partial "list/listitem" . -}}
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
 {{ end }}
