@@ -152,6 +152,23 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
 .more-posts:hover {
   color: #0af; }
 
+.blog-items {
+  padding-left: 1em; }
+  .blog-items a:hover {
+    color: #0af; }
+
+.blog-item {
+  margin: 1em 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap; }
+  .blog-item .entry-date {
+    font-style: italic;
+    min-width: 10em; }
+  .blog-item .entry-title {
+    min-width: 10em;
+    text-align: left; }
+
 body {
   background-color: #f7f3ed; }
 

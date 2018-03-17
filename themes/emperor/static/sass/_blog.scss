@@ -1,0 +1,24 @@
+.blog-items {
+    padding-left: 1em;
+
+    a:hover {
+        color: $decoration;
+    }
+}
+
+.blog-item {
+    margin: 1em 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    .entry-date {
+        font-style: italic;
+        min-width: 10em;
+    }
+
+    .entry-title {
+        min-width: 10em;
+        text-align: left;
+    }
+}
