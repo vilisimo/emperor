@@ -5,13 +5,15 @@
     </section>
   {{ end }}
   
-  {{ with .Data.Pages }}
+  {{ range .Paginator.Pages }}
     <section>
       <ul class="entries">
-        {{ range .ByWeight }}
-          {{- partial "list/listitem" . -}}
-        {{ end }}
+        {{- partial "list/listitem" . -}}
       </ul>
     </section>
   {{ end }}
+
+  <section>
+      {{ template "_internal/pagination.html" . }}
+  </section>
 {{ end }}
