@@ -172,9 +172,16 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
 
 ul.pagination {
   padding: 0;
+  margin: 3em 0 1.5em 0;
+  display: flex;
+  justify-content: center;
   list-style-type: none; }
   ul.pagination li {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0 0.2em;
+    font-size: 1.05em; }
+  ul.pagination li.active {
+    font-weight: 700; }
 
 body {
   background-color: #f7f3ed; }

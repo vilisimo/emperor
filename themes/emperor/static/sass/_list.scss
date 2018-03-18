@@ -26,9 +26,18 @@
 
 ul.pagination {
     padding: 0;
+    margin: 3em 0 1.5em 0;
+    display: flex;
+    justify-content: center;
     list-style-type: none;
 
     li {
         display: inline-block;
+        margin: 0 0.2em;
+        font-size: 1.05em;
+    }
+
+    li.active {
+        font-weight: 700;
     }
 }
