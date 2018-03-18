@@ -6,6 +6,6 @@ weight: 3
 ---
 Things to be avoided in the Empire:
 
-- herecy
+- heresy
 - open mind
 - orcs
