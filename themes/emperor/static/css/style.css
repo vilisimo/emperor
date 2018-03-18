@@ -18,7 +18,9 @@ a {
 
 p, ul, ol, li, section, a, div {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  word-spacing: 0.05em;
+  line-height: 1.5; }
 
 #page-header {
   text-align: center; }
