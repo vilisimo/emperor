@@ -10,7 +10,7 @@ googleAnalytics         = "UA-123-45"
 pluralizelisttitles     = false
 languageCode            = "en-us"
 enableGitInfo           = true
-paginate                = 2
+paginate                = 10
 
 [Author]
 name                    = "Simonas Viliūnas"
