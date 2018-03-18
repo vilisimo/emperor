@@ -152,6 +152,9 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
 .more-posts:hover {
   color: #0af; }
 
+.section-content {
+  margin: 2em 0 2em 0; }
+
 .entries {
   padding-left: 1em; }
   .entries a:hover {
