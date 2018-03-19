@@ -21,5 +21,8 @@ p, ul, ol, li, section, a, div {
     font-family: $open-sans;
     font-size: 1em;
     word-spacing: 0.05em;
-    line-height: 1.5;
+}
+
+p {
+    line-height: 1.7;    
 }
