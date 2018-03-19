@@ -1,10 +1,11 @@
-$size: 1.125em; // 20px / 16px = 18 px
+$height: 1.25em; // 20px / 16px = 18 px
+$width: 1.3em; // 20px / 16px = 18 px
 
 %icon {
     opacity: 0.5;
     transition: all 0.3s ease-in;
-    height: $size;
-    width: $size;
+    height: $height;
+    width: $width;
 }
 
 body > footer {
@@ -20,10 +21,10 @@ body > footer {
     }
 }
 
-img[alt="GitHub"], img[alt="LinkedIn"] {
+#social-icons img {
     @extend %icon;
 }
 
-img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
+#social-icons img:hover {
     opacity: 1;
 }

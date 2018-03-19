@@ -57,11 +57,11 @@ nav {
 .nav-current a, .nav-current a:hover {
   color: #383838; }
 
-img[alt="GitHub"], img[alt="LinkedIn"] {
+#social-icons img {
   opacity: 0.5;
   transition: all 0.3s ease-in;
-  height: 1.125em;
-  width: 1.125em; }
+  height: 1.25em;
+  width: 1.3em; }
 
 body > footer {
   text-align: center;
@@ -72,7 +72,7 @@ body > footer {
   #social-icons img {
     margin: 0 0.125em; }
 
-img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
+#social-icons img:hover {
   opacity: 1; }
 
 .markdown .categories, .markdown .date {

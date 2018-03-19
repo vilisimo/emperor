@@ -60,3 +60,4 @@ normalizecss            = true
 [params.social]
 github                  = "vilisimo"
 linkedin                = "simonasviliunas"
+stackoverflow           = "4543382"
