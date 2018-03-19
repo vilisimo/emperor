@@ -2,7 +2,7 @@
 title: "Orks"
 date: 2018-03-11T19:30:25+02:00
 draft: true
-categories: [orcs, infidels]
+categories: [orks, infidels]
 tags: []
 description: "A blog post describing filthy infidels orcs and how to deal with them"
 ---
