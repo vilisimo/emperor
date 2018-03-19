@@ -36,6 +36,12 @@ $px780: 48.75em;
 @import 'single';
 @import 'index';
 @import 'list';
+@import 'categories';
+
+%header {
+    margin-bottom: 2em;
+    padding-top: $px20;
+}
 
 body {
     background-color: $background;
