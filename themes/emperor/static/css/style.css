@@ -85,6 +85,7 @@ img[alt="GitHub"]:hover, img[alt="LinkedIn"]:hover {
 .markdown {
   line-height: 1.5em; }
   .markdown header {
+    margin-bottom: 2em;
     border-bottom: 1px solid #eee;
     padding-top: 1.25em; }
   .markdown h1 {
