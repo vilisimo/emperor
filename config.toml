@@ -51,7 +51,7 @@ identifier              = "about"
 url                     = "/about/"
 
 [params]
-description             = "Incredibly deep blog about stuff"
+description             = "Blog aimed at banishing heresy"
 latestpostcount         = 3
 
 [params.assets]
