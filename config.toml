@@ -11,6 +11,8 @@ pluralizelisttitles     = false
 languageCode            = "en-us"
 enableGitInfo           = true
 paginate                = 10
+pygmentsUseClassic      = false
+pygmentsStyle           = "monokai"
 
 [Author]
 name                    = "Simonas Viliūnas"
