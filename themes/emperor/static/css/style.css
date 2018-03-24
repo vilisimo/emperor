@@ -192,6 +192,9 @@ ul.pagination {
 #category-header > h1 {
   font-size: 2.25em; }
 
+pre, .highlight pre {
+  overflow: scroll; }
+
 .markdown header, #category-header {
   margin-bottom: 2em;
   padding-top: 1.25em; }
