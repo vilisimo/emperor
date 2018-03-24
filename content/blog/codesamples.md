@@ -26,7 +26,7 @@ class Emperor:
 {{< highlight java "linenos=inline" >}}
 public class TheEmpire {
     public static void main(String[] args) {
-        System.out.printerr("Glory to the Marines!");
+        System.err.println("Glory to the Marines!");
     }
 }
 {{< /highlight >}}
