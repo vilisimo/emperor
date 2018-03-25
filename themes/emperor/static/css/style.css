@@ -77,7 +77,7 @@ body > footer {
 #social-icons img:hover {
   opacity: 1; }
 
-.markdown .date, .markdown .categories {
+.markdown .date, .markdown .taxonomies {
   display: inline;
   text-transform: uppercase;
   color: #bcbcbc;
@@ -97,7 +97,7 @@ body > footer {
     margin-left: 0.416667em;
     flex-grow: 1;
     text-align: left; }
-  .markdown .categories {
+  .markdown .taxonomies {
     flex-grow: 1;
     text-align: right; }
   .markdown .article-info {

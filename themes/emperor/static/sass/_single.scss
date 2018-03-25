@@ -33,7 +33,7 @@ $px5: 0.416667em; // 5px [12 px context]
         text-align: left;
     }
 
-    .categories {
+    .taxonomies {
         @extend %supporting;
         flex-grow: 1;
         text-align: right;

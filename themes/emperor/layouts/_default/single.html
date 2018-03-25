@@ -11,7 +11,7 @@
               {{- .Page.Date.Format "January 2, 2006" -}}
           </div>
           {{ if .Params.categories }}
-            <div class="categories">
+            <div class="taxonomies">
                 {{- range .Params.categories -}}
                   <a href="/categories/{{ . | urlize }}">{{ . }}</a>
                 {{- end -}}
