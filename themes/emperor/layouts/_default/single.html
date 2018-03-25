@@ -1,37 +1,7 @@
 {{ define "main" }}
   <article class="markdown">
-    <header>
-        <h1>
-          <a href="{{ .Permalink }}">
-            {{- .Title -}}
-          </a>
-        </h1>
-        <div class="article-info">
-          <div class="date">
-              {{- .Page.Date.Format "January 2, 2006" -}}
-          </div>
-          {{ if .Params.categories }}
-            <div class="taxonomies">
-                {{- range .Params.categories -}}
-                  <a href="/categories/{{ . | urlize }}">{{ . }}</a>
-                {{- end -}}
-            </div>
-          {{ end }}
-        </div>
-        <!-- TODO: add previous/next links -->
-        <!-- TODO: add similar page for projects, except use technologies instead of categories -->
-    </header>
-
-    <section>
-      {{ if .Content }}
-        {{ .Content }}
-      {{ end }}
-    </section>
-
-    <footer>
-      <div class="date">
-        {{- print "Last edit:" }} {{ .Page.Lastmod.Format "January 2, 2006" -}}
-      </div>
-    </footer>
+    {{ partial "single/header" . }}
+    {{ partial "single/content" . }}
+    {{ partial "single/footer" . }}
   </article>
 {{ end }}
