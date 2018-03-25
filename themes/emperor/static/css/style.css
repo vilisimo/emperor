@@ -195,6 +195,10 @@ ul.pagination {
 pre, .highlight pre {
   overflow: scroll; }
 
+.highlight pre {
+  margin: 0;
+  padding: 1em 0.75em; }
+
 .markdown header, #category-header {
   margin-bottom: 2em;
   padding-top: 1.25em; }
