@@ -157,6 +157,9 @@ body > footer {
 .section-content {
   margin: 2em 0 2em 0; }
 
+/* ********************** */
+/* Blog and other entries */
+/* ********************** */
 .entries {
   padding-left: 1em; }
   .entries a:hover {
@@ -174,6 +177,19 @@ body > footer {
   .entry .entry-title {
     min-width: 10em;
     text-align: left; }
+
+/* *************** */
+/* Project entries */
+/* *************** */
+.project {
+  margin: 1em 0;
+  list-style-type: none; }
+  .project .project-description {
+    color: #bcbcbc;
+    min-width: 10em; }
+    .project .project-description p {
+      margin: 0;
+      font-size: 0.9em; }
 
 ul.pagination {
   padding: 0;
@@ -197,16 +213,6 @@ pre, .highlight pre {
 .highlight pre {
   margin: 0;
   padding: 1em 0.75em; }
-
-.project {
-  margin: 1em 0;
-  list-style-type: none; }
-  .project .project-description {
-    color: #bcbcbc;
-    min-width: 10em; }
-    .project .project-description p {
-      margin: 0;
-      font-size: 0.9em; }
 
 .markdown header, #category-header {
   margin-bottom: 2em;
