@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+  {{ if .Content }}
+    <section class="section-content">
+      {{ .Content }}
+    </section>
+  {{ end }}
+  
+  <section>
+    {{ range .Paginator.Pages }}
+      <ul class="entries">
+        {{- partial "list/projectlistitem" . -}}
+      </ul>
+    {{ end }}
+  </section>
+  
+  {{- template "_internal/pagination.html" . -}}
+
+{{ end }}

@@ -199,6 +199,16 @@ pre, .highlight pre {
   margin: 0;
   padding: 1em 0.75em; }
 
+.project {
+  margin: 1em 0;
+  list-style-type: none; }
+  .project .project-description {
+    color: #bcbcbc;
+    min-width: 10em; }
+    .project .project-description p {
+      margin: 0;
+      font-size: 0.9em; }
+
 .markdown header, #category-header {
   margin-bottom: 2em;
   padding-top: 1.25em; }

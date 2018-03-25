@@ -1,0 +1,14 @@
+<li class="project">
+  <span class="project-title">
+    <a href="{{ .RelPermalink }}">
+      {{- .Title -}}
+    </a>
+  </span>
+  <span class="project-description">  
+    {{ if .Description }}
+      <p>{{- .Description -}}</p>
+    {{ else }}
+      <p>This project has no description.</p>
+    {{ end }}
+  </span>
+</li>
