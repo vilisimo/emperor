@@ -26,19 +26,6 @@ $px5: 0.416667em; // 5px [12 px context]
         margin-bottom: 1em; // 24 px
     }
 
-    .date {
-        @extend %supporting;
-        margin-left: $px5;
-        flex-grow: 1;
-        text-align: left;
-    }
-
-    .taxonomies {
-        @extend %supporting;
-        flex-grow: 1;
-        text-align: right;
-    }
-
     .article-info {
         display: flex;
 
@@ -50,6 +37,19 @@ $px5: 0.416667em; // 5px [12 px context]
         a:hover {
             color: $decoration;
         }
+    }
+
+    .date {
+        @extend %supporting;
+        margin-left: $px5;
+        flex-grow: 1;
+        text-align: left;
+    }
+
+    .taxonomies {
+        @extend %supporting;
+        flex-grow: 1;
+        text-align: right;
     }
 
     blockquote {

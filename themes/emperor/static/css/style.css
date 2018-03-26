@@ -93,13 +93,6 @@ body > footer {
   .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
     margin-top: 2em;
     margin-bottom: 1em; }
-  .markdown .date {
-    margin-left: 0.416667em;
-    flex-grow: 1;
-    text-align: left; }
-  .markdown .taxonomies {
-    flex-grow: 1;
-    text-align: right; }
   .markdown .article-info {
     display: flex; }
     .markdown .article-info a {
@@ -107,6 +100,13 @@ body > footer {
       margin: 0 0.416667em 0 0.416667em; }
     .markdown .article-info a:hover {
       color: #0af; }
+  .markdown .date {
+    margin-left: 0.416667em;
+    flex-grow: 1;
+    text-align: left; }
+  .markdown .taxonomies {
+    flex-grow: 1;
+    text-align: right; }
   .markdown blockquote {
     font-size: 0.85em;
     color: #515A5A; }
