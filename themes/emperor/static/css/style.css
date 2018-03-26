@@ -114,6 +114,28 @@ body > footer {
     border-top: 1px solid #eee;
     margin: 1.875em 0; }
 
+.other-entries {
+  margin: 3em 0 2em 0;
+  display: flex;
+  font-size: 0.9em; }
+  .other-entries .previous-entry {
+    flex-grow: 1; }
+    .other-entries .previous-entry a {
+      color: #909090; }
+    .other-entries .previous-entry div {
+      font-weight: bold; }
+  .other-entries .previous-entry a:hover {
+    color: #0af; }
+  .other-entries .next-entry {
+    flex-grow: 1;
+    text-align: right; }
+    .other-entries .next-entry a {
+      color: #909090; }
+    .other-entries .next-entry div {
+      font-weight: bold; }
+  .other-entries .next-entry a:hover {
+    color: #0af; }
+
 .recent-posts {
   margin: 0;
   padding: 0; }

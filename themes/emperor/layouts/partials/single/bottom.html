@@ -1,0 +1,15 @@
+<div class="other-entries">
+  <div class="previous-entry">
+    {{ if .PrevInSection }}
+      <div>Previous entry:</div>
+      <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+    {{ end }}
+  </div>
+
+  <div class="next-entry">
+    {{ if .NextInSection }}
+      <div>Next entry:</div>
+      <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+    {{ end }}
+  </div>
+</div>

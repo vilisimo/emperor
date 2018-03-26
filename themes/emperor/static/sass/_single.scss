@@ -62,3 +62,42 @@ $px5: 0.416667em; // 5px [12 px context]
         margin: $px30 0;
     }
 }
+
+.other-entries {
+    margin: 3em 0 2em 0;
+    display: flex;
+    font-size: 0.9em;
+
+    .previous-entry {
+        flex-grow: 1;
+
+        a {
+            color: $inactive;
+        }
+
+        div {
+            font-weight: bold;
+        }
+    }
+
+    .previous-entry a:hover {
+        color: $decoration;
+    }
+
+    .next-entry {
+        flex-grow: 1;
+        text-align: right;
+
+        a {
+            color: $inactive;
+        }
+
+        div {
+            font-weight: bold;
+        }
+    }
+
+    .next-entry a:hover {
+        color: $decoration;
+    }
+}
