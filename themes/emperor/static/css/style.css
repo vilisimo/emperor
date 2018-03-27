@@ -170,14 +170,14 @@ body > footer {
 .more-posts {
   display: block;
   font-weight: bold;
-  margin: 2em 0;
+  margin: 1em 0;
   text-align: center; }
 
 .more-posts:hover {
   color: #0af; }
 
 .section-content {
-  margin: 2em 0 2em 0; }
+  margin-bottom: 2em; }
 
 /* ********************** */
 /* Blog and other entries */
@@ -246,9 +246,9 @@ body {
 main {
   background-color: white;
   border: 1px solid #ddd;
-  margin: 0.625em auto;
-  padding: 0.9375em 2.8125em;
-  max-width: 48.75em; }
+  margin: 0 auto;
+  padding: 1.5625em 4.375em;
+  max-width: 43.75em; }
   @media screen and (max-width: 960px) {
     main {
       max-width: 75%; } }

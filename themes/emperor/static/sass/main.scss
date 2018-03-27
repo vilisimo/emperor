@@ -26,9 +26,11 @@ $px14: 0.875em;
 $px15: 0.9375em;
 $px20: 1.25em;
 $px24: 1.5em;
+$px25: 1.5625em;
 $px30: 1.875em;
 $px45: 2.8125em;
-$px780: 48.75em;
+$px70: 4.375em;
+$px700: 43.75em;
 
 @import 'general';
 @import 'header';
@@ -51,9 +53,9 @@ body {
 main {
     background-color: $content;
     border: 1px solid $border;
-    margin: $px10 auto;
-    padding: $px15 $px45;
-    max-width: $px780;
+    margin: 0 auto;
+    padding: $px25 $px70;
+    max-width: $px700;
 
     @media screen and (max-width: 960px) {
         max-width: 75%;
