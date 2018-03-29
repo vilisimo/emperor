@@ -39,7 +39,7 @@ $px5: 0.416667em; // 5px [12 px context]
         }
     }
 
-    .date {
+    .date, .languages {
         @extend %supporting;
         margin-left: $px5;
         flex-grow: 1;
