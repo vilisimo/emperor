@@ -23,6 +23,8 @@ hrefTargetBlank         = true
 [taxonomies]
 category                = "categories"
 tag                     = "tags"
+languageCode            = "languages"
+tool                    = "tools"
 
 [permalinks]
 blog                    = "blog/:slug/"
