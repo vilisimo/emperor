@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <header id="category-header">
+  <header id="taxonomy-header">
     <h1>Posts in "{{ humanize .Data.Term }}" category</h1>
   </header>
 
@@ -10,6 +10,6 @@
         {{- partial "list/listitem" . -}}
       </ul>
     {{ end }}
-  </section>  
+  </section>
 
 {{ end }}

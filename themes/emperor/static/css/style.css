@@ -226,7 +226,7 @@ ul.pagination {
   ul.pagination li.active {
     font-weight: 700; }
 
-#category-header > h1 {
+#taxonomy-header > h1 {
   font-size: 2.25em; }
 
 pre, .highlight pre {
@@ -236,7 +236,7 @@ pre, .highlight pre {
   margin: 0;
   padding: 1em 0.75em; }
 
-.markdown header, #category-header {
+.markdown header, #taxonomy-header {
   margin-bottom: 2em;
   padding-top: 1.25em; }
 
