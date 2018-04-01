@@ -2,12 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:700');
 
-// Fonts
 $raleway: 'Raleway', sans-serif;
 $crimson: 'Crimson Text', serif;
 $open-sans: 'Open Sans', sans-serif;
 
-// Colors
 $active: #383838;
 $hover: #606060;
 $inactive: #909090;
@@ -18,7 +16,7 @@ $separating-border: 1px solid #eee;
 $supporting-info: #bcbcbc;
 $decoration: #0af;
 
-// pixel equivalents in ems (from 16px)
+// Based on 16 px
 $px5: 0.3125em;
 $px10: 0.625em;
 $px12: 0.75em;
