@@ -13,7 +13,7 @@
     }
 
     h3 {
-        font-size: 1.5em; // 24 px
+        font-size: $px24;
         margin: 0;
         flex-grow: 9;
         float: left;
@@ -30,7 +30,7 @@
 
     .post-date {
         margin: 0;
-        font-size: 0.75em;
+        font-size: $px12;
         flex-grow: 1;
         float: right;
         text-align: right;
