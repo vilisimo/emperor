@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ if .Content }}
+  {{ if .Content }}
     <section class="section-content">
       {{ .Content }}
     </section>
@@ -16,4 +16,4 @@
   
   {{- template "_internal/pagination.html" . -}}
 
-  {{ end }}
+{{ end }}
