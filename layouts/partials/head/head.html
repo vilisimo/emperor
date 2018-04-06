@@ -18,5 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 {{ end }}
 <link rel="stylesheet" href="/css/style.css">
+{{ if .Site.Params.favicon }}
+    <link rel="shortcut icon" type="image/ico" href="/{{ .Site.Params.favicon }}">
+{{ end }}
 
 {{ partial "head/scripts" . }}
