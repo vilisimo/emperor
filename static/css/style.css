@@ -16,6 +16,14 @@ a {
   text-decoration: none;
   color: #383838; }
 
+.markdown p > a:link, section p > a:link {
+  color: red;
+  font-weight: 600; }
+
+.markdown p > a:visited, section p > a:visited {
+  color: #717171;
+  font-weight: 600; }
+
 p, ul, ol, li, section, a, div {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
