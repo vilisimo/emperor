@@ -115,6 +115,12 @@ body > footer {
   .markdown .taxonomies {
     flex-grow: 1;
     text-align: right; }
+  @media screen and (max-width: 700px) {
+    .markdown .languages, .markdown .taxonomies {
+      display: flex;
+      flex-wrap: wrap; }
+    .markdown .taxonomies {
+      justify-content: flex-end; } }
   .markdown blockquote {
     font-size: 0.85em;
     color: #515A5A; }

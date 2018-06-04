@@ -52,6 +52,17 @@ $px5: 0.416667em; // 5px [12 px context]
         text-align: right;
     }
 
+    @media screen and (max-width: 700px) {
+        .languages, .taxonomies {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .taxonomies {
+            justify-content: flex-end;
+        }
+    }
+
     blockquote {
         font-size: 0.85em;
         color: $quote;
