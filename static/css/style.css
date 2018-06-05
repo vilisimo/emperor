@@ -118,7 +118,8 @@ body > footer {
   @media screen and (max-width: 700px) {
     .markdown .languages, .markdown .taxonomies {
       display: flex;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      max-width: 250px; }
     .markdown .taxonomies {
       justify-content: flex-end; } }
   .markdown blockquote {
