@@ -248,6 +248,11 @@ pre, .highlight pre {
   margin: 0;
   padding: 1em 0.75em; }
 
+p > code {
+  background-color: #f5f8fa;
+  padding: 2px 5px;
+  border-radius: 3px; }
+
 .markdown header, #taxonomy-header {
   margin-bottom: 2em;
   padding-top: 1.25em; }
