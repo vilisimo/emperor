@@ -249,9 +249,8 @@ pre, .highlight pre {
   padding: 1em 0.75em; }
 
 p > code {
-  background-color: #f5f8fa;
-  padding: 2px 5px;
-  border-radius: 3px; }
+  background-color: #f0f0f0;
+  padding: 2px 5px; }
 
 .markdown header, #taxonomy-header {
   margin-bottom: 2em;
