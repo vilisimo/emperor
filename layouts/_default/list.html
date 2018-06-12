@@ -1,12 +1,14 @@
 {{ define "main" }}
 
-  {{ if .Content }}
-    <section>
-      {{ .Content }}
-    </section>
+  {{ if lt .Paginator.TotalNumberOfElements 1 }}
+    {{ if .Content }}
+      <section>
+        {{ .Content }}
+      </section>
+    {{ end }}
   {{ end }}
-  
-  {{ if gt .Paginator.TotalNumberOfElements 1 }}
+
+  {{ if gt .Paginator.TotalNumberOfElements 0 }}
     <section>
       {{- range .Paginator.Pages -}}
         <ul class="entries">
