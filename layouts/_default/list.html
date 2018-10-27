@@ -1,11 +1,9 @@
 {{ define "main" }}
 
-  {{ if lt .Paginator.TotalNumberOfElements 1 }}
-    {{ if .Content }}
-      <section>
-        {{ .Content }}
-      </section>
-    {{ end }}
+  {{ if .Content }}
+    <section>
+      {{ .Content }}
+    </section>
   {{ end }}
 
   {{ if gt .Paginator.TotalNumberOfElements 0 }}
