@@ -32,8 +32,8 @@
         "name": "{{ range .Site.Author }}{{ . }}{{ end }}"
       },
       "copyrightYear" : "{{ .Date.Format "2006" }}",
-      "datePublished": "{{ .Date }}",
-      "dateModified" : "{{ .Date }}",
+      "datePublished": {{ .Date }},
+      "dateModified" : {{ .Date }},
       "url" : "{{ .Permalink }}",
       "wordCount" : "{{ .WordCount }}",
       "keywords" : [ {{ if isset .Params "categories" }}{{ range .Params.categories }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
