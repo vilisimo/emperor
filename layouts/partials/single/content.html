@@ -1,4 +1,10 @@
 {{ if .Content }}
+  {{ if .Params.include_toc }}
+    <aside>
+        <h2 id="table-of-contents">Contents</h2>
+        {{ .TableOfContents }}
+    </aside>
+  {{ end }}
   <section>
     {{ .Content }}
   </section>
