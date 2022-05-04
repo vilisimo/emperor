@@ -17,12 +17,12 @@ a {
     color: $active;
 }
 
-.markdown p > a:link, section p > a:link {
+.markdown p > a:link, section p > a:link, .markdown li > a:link, section li > a:link {
     color: red;
     font-weight: 600;
 }
 
-.markdown p > a:visited, section p > a:visited {
+.markdown p > a:visited, section p > a:visited, .markdown lo > a:visited, section li > a:visited {
     color: #717171;
     font-weight: 600;
 }
@@ -35,5 +35,5 @@ p, ul, ol, li, section, a, div {
 }
 
 p {
-    line-height: 1.7;    
+    line-height: 1.7;
 }

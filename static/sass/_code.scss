@@ -7,7 +7,7 @@ pre, .highlight pre {
     padding: $px16 $px12;
  }
 
- p > code {
+ p > code, li > code {
      background-color: #f0f0f0;
      padding: 2px 5px;
  }
