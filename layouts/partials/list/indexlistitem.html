@@ -2,7 +2,7 @@
     <article>
         <header>
             <h3>
-                <a {{ printf "href=%q" .URL | safeHTMLAttr }}>
+                <a {{ printf "href=%q" .Permalink | safeHTMLAttr }}>
                     {{- default .Title .Params.heading -}}
                 </a>
             </h3>
