@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+  <header id="taxonomy-header">
+    <h1>Posts related to {{ humanize .Data.Term }}:</h1>
+  </header>
+
+  <section>
+    {{ range .Paginator.Pages }}
+      <ul class="entries">
+        {{- partial "list/listitem" . -}}
+      </ul>
+    {{ end }}
+  </section>
+
+{{ end }}
